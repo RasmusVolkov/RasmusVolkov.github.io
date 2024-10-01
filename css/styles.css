@@ -11001,7 +11001,7 @@ header.masthead .masthead-heading {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgba(255, 200, 0, 0.9);
+  background: rgba(255, 200, 0, 0.0);
   align-items: center;
   justify-content: center;
   opacity: 0;
@@ -11351,7 +11351,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 /* Set the default height and width for the logo */
 #mainNav .navbar-brand img {
-  width: 450px !important; /* Desired width */
+  width: 400px !important; /* Desired width */
   height: auto !important; /* Keeps the aspect ratio */
   transition: height 0.3s ease-in-out; /* Transition effect */
 }
@@ -11376,4 +11376,157 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 .masthead-heading {
   transition: color 0.5s ease;
+}
+
+/* Ensure the video is hidden until hovered */
+.portfolio-video {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 45px;
+  display: none; /* Hidden by default */
+}
+
+/* Keep the image visible by default */
+.portfolio-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 45px;
+  transition: transform 0.3s ease; /* Smooth zoom effect */
+  display: block; /* Make sure the image is always visible */
+}
+
+/* Show the video and hide the image on hover */
+.portfolio-item:hover .portfolio-video {
+  display: block; /* Show the video */
+}
+
+.portfolio-item:hover img {
+  display: none; /* Hide the image when hovering */
+}
+
+/* Zoom-in effect for the image on hover */
+.portfolio-item:hover .portfolio-hover img {
+  transform: scale(1.05); /* Zoom in effect */
+}
+
+/* Hide the yellow highlight and plus icon */
+.portfolio-hover {
+  display: none; /* Remove hover overlay */
+}
+
+/* Zoom-in effect for image and video on hover */
+.portfolio-item img, 
+.portfolio-item .portfolio-video {
+  transition: transform 0.3s ease; /* Smooth zoom effect */
+  border-radius: 45px; /* Maintain rounded corners */
+}
+
+/* Zoom-in effect for both image and video on hover */
+.portfolio-item:hover img, 
+.portfolio-item:hover .portfolio-video {
+  transform: scale(1.1); /* Zoom in on hover */
+}
+
+/* Ensure the video is hidden until hover */
+.portfolio-video {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: none; /* Hide video by default */
+}
+
+/* On hover, show the video and hide the image */
+.portfolio-item:hover .portfolio-video {
+  display: block; /* Show the video */
+}
+
+.portfolio-item:hover img {
+  display: none; /* Hide the image */
+}
+
+.portfolio-item video {
+  width: 100%; /* Make the video take the full width of the container */
+  height: 100%; /* Make the video take the full height of the container */
+  object-fit: cover; /* Maintain aspect ratio while covering the entire area */
+  border-radius: 45px; /* Ensure the corners are rounded */
+  transition: transform 0.3s ease; /* Ensure a smooth zoom transition */
+}
+
+/* Apply a different zoom effect based on aspect ratio (optional) */
+.portfolio-item:hover video {
+  transform: scale(1.1); /* Adjust this value as needed for zoom */
+}
+
+.portfolio-item:hover img {
+  transform: scale(1.1); /* Ensure images also zoom on hover */
+}
+
+/* Square video adjustments */
+.portfolio-item .portfolio-video.square {
+  object-fit: cover; /* Ensure it covers the entire area */
+}
+
+/* Portrait video adjustments */
+.portfolio-item .portfolio-video.portrait {
+  object-fit: cover; /* Ensure it covers the entire area */
+}
+
+/* General video styles */
+.portfolio-item .portfolio-video {
+  width: 100%; /* Full width of the item */
+  height: auto; /* Keep auto to maintain aspect ratio */
+  border-radius: 45px; /* Ensure rounded corners */
+  display: none; /* Hidden by default */
+  transition: transform 0.3s ease; /* Smooth transition for zoom */
+}
+
+/* On hover, apply different zoom effects */
+.portfolio-item:hover .portfolio-video {
+  transform: scale(1.1); /* Adjust zoom scale for all */
+}
+
+/* Keep the image visible by default */
+.portfolio-item img {
+  width: 100%; /* Full width of the item */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Cover the area without distortion */
+  border-radius: 45px; /* Rounded corners */
+  display: block; /* Always visible */
+}
+
+/* Show the video and hide the image on hover */
+.portfolio-item:hover .portfolio-video {
+  display: block; /* Show the video */
+}
+
+.portfolio-item:hover img {
+  display: none; /* Hide the image when hovering */
+}
+
+.portfolio-video {
+  width: 100%;
+  height: auto;
+  border-radius: 45px;
+}
+
+.landscape {
+  height: auto;
+}
+
+.square {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/* Hide the plus icon by default */
+#portfolio .portfolio-item .portfolio-hover-content .fa-plus {
+  display: none; /* Hides the icon */
+}
+
+/* Ensure the icon remains hidden on hover */
+#portfolio .portfolio-item .portfolio-link:hover .portfolio-hover-content .fa-plus {
+  display: none; /* Ensures it's hidden during hover */
 }
