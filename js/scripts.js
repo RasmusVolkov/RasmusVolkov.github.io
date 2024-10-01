@@ -52,3 +52,36 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+window.addEventListener('DOMContentLoaded', event => {
+    // Function to alternate text between "product" and "solution"
+    const dynamicTextElement = document.getElementById('dynamicText');
+    const texts = ["product", "solution"];
+    let index = 0;
+
+    setInterval(() => {
+        index = (index + 1) % texts.length;  // Toggle between 0 and 1
+        dynamicTextElement.textContent = texts[index];  // Change the text
+    }, 1500);  // Every 2 seconds
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    const portfolioItems = document.querySelectorAll('.portfolio-item');
+
+    portfolioItems.forEach(item => {
+        const video = item.querySelector('.portfolio-video');
+        
+        item.addEventListener('mouseenter', () => {
+            if (video) {
+                video.play();
+            }
+        });
+
+        item.addEventListener('mouseleave', () => {
+            if (video) {
+                video.pause();
+                video.currentTime = 0; // Reset video to start when leaving hover
+            }
+        });
+    });
+});
