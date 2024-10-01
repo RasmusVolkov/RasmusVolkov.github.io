@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Agency - Start Bootstrap Theme</title>
+        <title>Rasmus Volkov - 3D design</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/rv-favicon.ico" />
         <!-- Font Awesome icons (free version)-->
@@ -36,11 +36,13 @@
                 </div>
             </div>
         </nav>
-        <!-- Masthead-->
+    <!-- Masthead-->
         <header class="masthead">
             <div class="container">
                 <div class="masthead-subheading">3D product design, videos and images</div>
-                <div class="masthead-heading text-uppercase">Visualise your product/solution</div>
+                <div class="masthead-heading text-uppercase">
+                    Visualise your <span id="dynamicText" style="color: yellow;">product</span>
+                </div>
                 <a class="btn btn-primary btn-xl text-uppercase" href="#services">Tell Me More</a>
             </div>
         </header>
@@ -87,16 +89,21 @@
     <div class="container">
         <div class="text-center">
             <h2 class="section-heading text-uppercase">Portfolio</h2>
-            <h3 class="section-subheading text-muted">Our work</h3>
+            <h3 class="section-subheading text-muted">My previous projects</h3>
         </div>
         <div class="row">
-            <!-- Portfolio item 1 -->
+            <!-- Portfolio item 1 - Landscape Video -->
             <div class="col-lg-4 col-sm-6 mb-4">
                 <div class="portfolio-item">
                     <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                         </div>
+                        <!-- Landscape video -->
+                        <video class="portfolio-video landscape" muted loop preload="none" poster="assets/img/portfolio/shoe.jpg" style="border-radius: 45px;">
+                            <source src="assets/img/portfolio/shoe.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
                         <img class="img-fluid" src="assets/img/portfolio/shoe.jpg" alt="..." style="border-radius: 45px;" />
                     </a>
                     <div class="portfolio-caption">
@@ -106,13 +113,18 @@
                 </div>
             </div>
 
-            <!-- Portfolio item 2 -->
+            <!-- Portfolio item 2 - Landscape Video -->
             <div class="col-lg-4 col-sm-6 mb-4">
                 <div class="portfolio-item">
                     <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                         </div>
+                        <!-- Landscape video -->
+                        <video class="portfolio-video landscape" muted loop preload="none" poster="assets/img/portfolio/reveal.jpg" style="border-radius: 45px;">
+                            <source src="assets/img/portfolio/reveal-video.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
                         <img class="img-fluid" src="assets/img/portfolio/reveal.jpg" alt="..." style="border-radius: 45px;" />
                     </a>
                     <div class="portfolio-caption">
@@ -121,14 +133,19 @@
                     </div>
                 </div>
             </div>
-
-            <!-- Portfolio item 3 -->
+            
+            <!-- Portfolio item 3 - Landscape Video -->
             <div class="col-lg-4 col-sm-6 mb-4">
                 <div class="portfolio-item">
                     <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                         </div>
+                        <!-- Landscape video -->
+                        <video class="portfolio-video landscape" muted loop preload="none" poster="assets/img/portfolio/car.jpg" style="border-radius: 45px;">
+                            <source src="assets/img/portfolio/car.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
                         <img class="img-fluid" src="assets/img/portfolio/car.jpg" alt="..." style="border-radius: 45px;" />
                     </a>
                     <div class="portfolio-caption">
@@ -138,13 +155,18 @@
                 </div>
             </div>
 
-            <!-- Portfolio item 4 -->
+            <!-- Portfolio item 4 - Square Video -->
             <div class="col-lg-4 col-sm-6 mb-4">
                 <div class="portfolio-item">
                     <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                         </div>
+                        <!-- Square video -->
+                        <video class="portfolio-video square" muted loop preload="none" poster="assets/img/portfolio/beauty.jpg" style="border-radius: 45px;">
+                            <source src="assets/img/portfolio/beauty1.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
                         <img class="img-fluid" src="assets/img/portfolio/beauty.jpg" alt="..." style="border-radius: 45px;" />
                     </a>
                     <div class="portfolio-caption">
@@ -193,7 +215,9 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Product Images</h2>
-                    <h3 class="section-subheading text-muted">Showcase your products with precision and style.</h3>
+                    <h3 class="section-subheading text-muted">Present your products with precision, detail, and flexibility.
+
+                    </h3>
                 </div>
                 <div class="row align-items-center mb-5">
                     <div class="col-md-6">
@@ -201,7 +225,7 @@
                     </div>
                     <div class="col-md-6">
                         <h4 class="my-3">Boost Engagement</h4>
-                        <p class="text-muted">High-quality 3D images are visually captivating and more likely to capture attention, helping to drive clicks and increase engagement across platforms.</p>
+                        <p class="text-muted">High-quality 3D images catch the eye, naturally drawing in viewers and boosting click-through rates. In a world saturated with content, standing out visually translates directly into increased engagement across digital channels.</p>
                     </div>
                 </div>
                 <div class="row align-items-center mb-5">
@@ -210,7 +234,8 @@
                     </div>
                     <div class="col-md-6 order-md-1">
                         <h4 class="my-3">Efficient and Customizable</h4>
-                        <p class="text-muted">Once digital, product images can be reused and customized effortlessly for marketing, social media, and ecommerce, saving time and resources.</p>
+                        <p class="text-muted">Digital product images offer the advantage of being highly adaptable. Once created, they can be repurposed for various campaigns—social media, ecommerce, or advertising—saving both time and budget on recurring shoots.
+                        </p>
                     </div>
                 </div>
                 <div class="row align-items-center">
@@ -219,7 +244,7 @@
                     </div>
                     <div class="col-md-6">
                         <h4 class="my-3">On-Demand Flexibility</h4>
-                        <p class="text-muted">3D product images offer versatility—tailor visuals for any campaign or platform, ensuring your brand stays consistent while meeting specific promotional needs.</p>
+                        <p class="text-muted">3D images allow you to tailor visuals for any specific need, ensuring your brand stays consistent while adapting to each platform or promotional campaign with minimal effort.</p>
                     </div>
                 </div>
             </div>
@@ -229,7 +254,7 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Product Animation</h2>
-                    <h3 class="section-subheading text-muted">Showcase your products with maximum impact.</h3>
+                    <h3 class="section-subheading text-muted">Convey more information in less time with dynamic product displays.</h3>
                 </div>
                 <div class="row align-items-center mb-5">
                     <div class="col-md-6">
@@ -237,7 +262,7 @@
                     </div>
                     <div class="col-md-6">
                         <h4 class="my-3">Capture Attention</h4>
-                        <p class="text-muted">Animation grabs attention faster than static images. Dynamic visuals keep viewers engaged and make your product more memorable, boosting overall interaction and conversions.</p>
+                        <p class="text-muted">In an era where attention spans are shrinking, animation is a powerful tool. Moving visuals capture interest in seconds and keep potential customers engaged longer, making your product more memorable.</p>
                     </div>
                 </div>
                 <div class="row align-items-center mb-5">
@@ -245,8 +270,9 @@
                         <img class="img-fluid" src="assets/img/product-animation2.jpg" alt="Product Animation Image" style="border-radius: 45px;" />
                     </div>
                     <div class="col-md-6 order-md-1">
-                        <h4 class="my-3">Communicate More</h4>
-                        <p class="text-muted">Product animations showcase features that images can't. Highlight every angle, function, and detail, allowing customers to understand your product's value faster and more effectively.</p>
+                        <h4 class="my-3">Communicate More, Visually</h4>
+                        <p class="text-muted">Animations can show what static images can’t—product features, functionality, and real-world application. This gives customers a comprehensive understanding of your offering, faster and with fewer barriers to decision-making.
+                        </p>
                     </div>
                 </div>
                 <div class="row align-items-center">
@@ -254,8 +280,8 @@
                         <img class="img-fluid" src="assets/img/product-animation3.jpg" alt="Product Animation Image" style="border-radius: 45px;" />
                     </div>
                     <div class="col-md-6">
-                        <h4 class="my-3">Increase ROI</h4>
-                        <p class="text-muted">Video content drives 95% higher engagement than static ads. With retargeting, you can focus on those most likely to buy, leading to more conversions and a stronger ROI.</p>
+                        <h4 class="my-3">Increase ROI with Retargeing</h4>
+                        <p class="text-muted">Video content drives 95% higher engagement than static visuals. Retargeting those who interact with animations allows you to focus on the audience most likely to convert, leading to better returns on your marketing investments and more efficient use of ad budgets.</p>
                     </div>
                 </div>
             </div>
