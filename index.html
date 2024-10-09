@@ -9,13 +9,13 @@
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/rv-favicon.ico" />
         <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" rel="stylesheet">
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
-    </head>
+    </head>    
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
@@ -37,11 +37,11 @@
         </nav>
 <!-- Masthead-->
 <header class="masthead">
-    <video autoplay muted loop id="header-video" class="video-background">
+    <video autoplay muted loop playsinline id="header-video" class="video-background">
         <source src="../assets/img/header.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
-    <img src="../assets/img/header-bg.jpg" class="video-fallback" alt="Fallback Background Image">
+    <img src="../assets/img/header.png" class="video-fallback" alt="Fallback Background Image">
     <div class="container">
         <div class="masthead-subheading">3D product design, videos and images</div>
         <div class="masthead-heading text-uppercase">
@@ -92,30 +92,29 @@
 <section class="page-section" id="portfolio">
     <div class="container">
         <div class="text-center">
-            <h2 class="section-heading text-uppercase">Portfolio</h2>
+            <h2 class="section-heading text-uppercase">Previous work</h2>
             <h3 class="section-subheading text-muted">My previous projects</h3>
         </div>
         <div class="row">
-            <!-- Portfolio item 1 - Landscape Video -->
-            <div class="col-lg-4 col-sm-6 mb-4">
-                <div class="portfolio-item">
-                    <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                        </div>
-                        <!-- Landscape video -->
-                        <video class="portfolio-video landscape" muted loop preload="none" poster="assets/img/portfolio/shoe.jpg" style="border-radius: 45px;">
-                            <source src="assets/img/portfolio/shoe.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                        <img class="img-fluid" src="assets/img/portfolio/shoe.jpg" alt="..." style="border-radius: 45px;" />
-                    </a>
-                    <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading">Shoe reveal</div>
-                        <div class="portfolio-caption-subheading text-muted">Illustration</div>
-                    </div>
+     <!-- Portfolio item 1 - Landscape Video -->
+     <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="portfolio-item">
+            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                <div class="portfolio-hover">
+                    <div class="portfolio-hover-content"><i class="fa-regular fa-circle-play fa-3x"></i></div>
                 </div>
+                <video class="portfolio-video landscape" muted loop preload="none" poster="assets/img/portfolio/shoe.jpg" style="border-radius: 45px;">
+                    <source src="assets/img/portfolio/shoe.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <img class="img-fluid" src="assets/img/portfolio/shoe.jpg" alt="..." style="border-radius: 45px;" />
+            </a>
+            <div class="portfolio-caption">
+                <div class="portfolio-caption-heading">Shoe reveal</div>
+                <div class="portfolio-caption-subheading text-muted">Illustration</div>
             </div>
+        </div>
+    </div>
             <!-- Portfolio item 2 - Landscape Video -->
             <div class="col-lg-4 col-sm-6 mb-4">
                 <div class="portfolio-item">
@@ -179,37 +178,68 @@
                 </div>
             </div>
 
-            <!-- Portfolio item 5 -->
+            <!-- Portfolio item 5 - Landscape Video -->
             <div class="col-lg-4 col-sm-6 mb-4">
                 <div class="portfolio-item">
-                    <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
+                    <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                         </div>
-                        <img class="img-fluid" src="assets/img/portfolio/5.jpg" alt="..." style="border-radius: 45px;" />
+                        <!-- Landscape video -->
+                        <video class="portfolio-video landscape" muted loop preload="none" poster="assets/img/portfolio/perfume.png" style="border-radius: 45px;">
+                            <source src="assets/img/portfolio/perfume.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <img class="img-fluid" src="assets/img/portfolio/perfume.png" alt="..." style="border-radius: 45px;" />
                     </a>
                     <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading">Item 5</div>
-                        <div class="portfolio-caption-subheading text-muted">Description 5</div>
+                        <div class="portfolio-caption-heading">Perfume</div>
+                        <div class="portfolio-caption-subheading text-muted">Description 3</div>
                     </div>
                 </div>
             </div>
 
-            <!-- Portfolio item 6 -->
+            <!-- Portfolio item 6 - Landscape Video -->
             <div class="col-lg-4 col-sm-6 mb-4">
                 <div class="portfolio-item">
-                    <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
+                    <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                         </div>
-                        <img class="img-fluid" src="assets/img/portfolio/6.jpg" alt="..." style="border-radius: 45px;" />
+                        <!-- Landscape video -->
+                        <video class="portfolio-video landscape" muted loop preload="none" poster="assets/img/portfolio/robot.png" style="border-radius: 45px;">
+                            <source src="assets/img/portfolio/robot.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <img class="img-fluid" src="assets/img/portfolio/robot.png" alt="..." style="border-radius: 45px;" />
                     </a>
                     <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading">Item 6</div>
-                        <div class="portfolio-caption-subheading text-muted">Description 6</div>
+                        <div class="portfolio-caption-heading">Robot</div>
+                        <div class="portfolio-caption-subheading text-muted">Description 3</div>
                     </div>
                 </div>
             </div>
+          <!-- Portfolio item 5 - Landscape Video -->
+             <div class="col-lg-4 col-sm-6 mb-4">
+                 <div class="portfolio-item">
+                                <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                                    <div class="portfolio-hover">
+                                        <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                    </div>
+                                    <!-- Landscape video -->
+                                    <video class="portfolio-video landscape" muted loop preload="none" poster="assets/img/portfolio/headphones-gold.png" style="border-radius: 45px;">
+                                        <source src="assets/img/portfolio/headphones-gold.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                    <img class="img-fluid" src="assets/img/portfolio/headphones-gold.png" alt="..." style="border-radius: 45px;" />
+                                </a>
+                                <div class="portfolio-caption">
+                                    <div class="portfolio-caption-heading">Headphones</div>
+                                    <div class="portfolio-caption-subheading text-muted">Description 3</div>
+                                </div>
+                            </div>
+                        </div>
+            
         </div>
     </div>
 </section>

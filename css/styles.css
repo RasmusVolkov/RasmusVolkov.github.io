@@ -11680,3 +11680,51 @@ header.masthead {
       filter: brightness(100%);
   }
 }
+/* Keep the desktop version as is */
+#mainNav .navbar-brand img {
+  width: 400px !important; /* Desired width for desktop */
+  height: auto !important; /* Keeps the aspect ratio */
+  transition: height 0.3s ease-in-out, width 0.3s ease-in-out; /* Transition effect for both height and width */
+}
+
+/* Add a media query for mobile devices */
+@media (max-width: 768px) {
+  #mainNav .navbar-brand img {
+    width: 200px !important; /* Adjust this value to your preferred mobile size */
+    height: auto !important; /* Maintain aspect ratio */
+  }
+  
+  /* Adjust for when the navbar is shrunk on mobile */
+  #mainNav.navbar-shrink .navbar-brand img {
+    width: 150px !important; /* Adjust this value as needed for shrunk navbar on mobile */
+    height: auto !important;
+  }
+}
+/* Mobile specific styles */
+@media (max-width: 768px) {
+
+  /* Add margin below "More" buttons */
+  .btn-xl {
+    margin-bottom: 100px; /* Increase this value to your preferred spacing */
+  }
+
+  /* If the icon below each service has a class, for example */
+  .service-icon {
+    margin-top: 20px; /* Increase space above the icons if needed */
+  }
+}
+@media (max-width: 768px) {
+  #header-video {
+      display: none;
+  }
+
+  .video-fallback {
+      display: block;
+  }
+}
+
+@media (min-width: 769px) {
+  .video-fallback {
+      display: none;
+  }
+}

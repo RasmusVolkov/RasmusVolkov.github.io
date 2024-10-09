@@ -85,4 +85,81 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+document.addEventListener('DOMContentLoaded', function() {
+    // Hide any solid play icon
+    const solidIcons = document.querySelectorAll('.fa-solid.fa-circle-play');
+    solidIcons.forEach(icon => {
+        icon.style.display = 'none'; // Hide solid icons
+    });
 
+    // Portfolio video hover functionality
+    const portfolioItems = document.querySelectorAll('.portfolio-item');
+
+    portfolioItems.forEach(item => {
+        const video = item.querySelector('.portfolio-video');
+        
+        item.addEventListener('mouseenter', () => {
+            if (video) {
+                video.play();
+            }
+        });
+
+        item.addEventListener('mouseleave', () => {
+            if (video) {
+                video.pause();
+                video.currentTime = 0; // Reset video to start when leaving hover
+            }
+        });
+    });
+});
+document.addEventListener('DOMContentLoaded', function() {
+    // Hide any solid play icon
+    const solidIcons = document.querySelectorAll('.fa-solid.fa-circle-play');
+    solidIcons.forEach(icon => {
+        icon.style.display = 'none'; // Hide solid icons
+    });
+
+    const portfolioItems = document.querySelectorAll('.portfolio-item');
+
+    // Function to enable or disable hover based on screen size
+    const handleHover = () => {
+        const isMobile = window.innerWidth < 768; // Adjust the width as needed
+
+        portfolioItems.forEach(item => {
+            const video = item.querySelector('.portfolio-video');
+
+            // Remove hover functionality on mobile
+            if (isMobile) {
+                item.removeEventListener('mouseenter', playVideo);
+                item.removeEventListener('mouseleave', pauseVideo);
+            } else {
+                // Add hover functionality for desktop
+                item.addEventListener('mouseenter', playVideo);
+                item.addEventListener('mouseleave', pauseVideo);
+            }
+        });
+    };
+
+    // Function to play video on hover
+    const playVideo = (event) => {
+        const video = event.currentTarget.querySelector('.portfolio-video');
+        if (video) {
+            video.play();
+        }
+    };
+
+    // Function to pause video on hover exit
+    const pauseVideo = (event) => {
+        const video = event.currentTarget.querySelector('.portfolio-video');
+        if (video) {
+            video.pause();
+            video.currentTime = 0; // Reset video to start when leaving hover
+        }
+    };
+
+    // Initial call to set up hover functionality
+    handleHover();
+
+    // Add event listener for window resize to re-check hover functionality
+    window.addEventListener('resize', handleHover);
+});
