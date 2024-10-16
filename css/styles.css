@@ -11895,3 +11895,8 @@ header.masthead {
       pointer-events: none;
   }
 }
+#about .team-member img {
+  width: 225px;
+  height: 225px;
+  border: 7px solid #fed137; /* Changed this line */
+}
