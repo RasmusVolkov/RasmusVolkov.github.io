@@ -11900,3 +11900,12 @@ header.masthead {
   height: 225px;
   border: 7px solid #fed137; /* Changed this line */
 }
+#about .team-member .location {
+  margin-bottom: 15px; /* Adjust this value as needed */
+}
+
+/* OR */
+
+#about .team-member .btn-social {
+  margin-top: 15px; /* Adjust this value as needed */
+}
