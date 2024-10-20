@@ -1,149 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap-image/1.1"
-        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap-image/1.1 http://www.sitemaps.org/schemas/sitemap-image/1.1/sitemap-image.xsd
-                            http://www.google.com/schemas/sitemap-video/1.1 http://www.google.com/schemas/sitemap-video/1.1/sitemap-video.xsd">
+        xmlns:video="http://www.google.com/schemas/sitemap-video#">
 
-    <url>
-        <loc>https://rasmusvolkov.com/#services</loc>
-        <lastmod>2024-10-20T09:50:23+00:00</lastmod>
-        <priority>1.0</priority>
-    </url>
-    
-    <url>
-        <loc>https://rasmusvolkov.com/#product-images</loc>
-        <lastmod>2024-10-20T09:50:23+00:00</lastmod>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://rasmusvolkov.com/assets/img/portfolio/shoe.mp4</loc>
-        <lastmod>2024-10-20T09:50:23+00:00</lastmod>
-        <priority>0.8</priority>
-        <video:video>
-            <video:content_loc>https://rasmusvolkov.com/assets/img/portfolio/shoe.mp4</video:content_loc>
-            <video:title>Shoe reveal</video:title>
-            <video:description>A quick moody video to tease your new, about to launch product to your followers to create tension and tease the new product.</video:description>
-        </video:video>
-    </url>
+  <url>
+    <loc>https://rasmusvolkov.com/#services</loc>
+    <lastmod>2024-10-20T09:50:23+00:00</lastmod>
+    <priority>1.0</priority>
+    <video:video>
+      <video:content_loc>https://rasmusvolkov.com/assets/img/portfolio/shoe.mp4</video:content_loc>
+      <video:title>Shoe reveal</video:title>
+      <video:description>A quick moody video to tease your new, about to launch product to your followers to create tension and tease the new product.</video:description>
+    </video:video>
+  </url>
 
-    <url>
-        <loc>https://rasmusvolkov.com/#product-animation</loc>
-        <lastmod>2024-10-20T09:50:23+00:00</lastmod>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://rasmusvolkov.com/assets/img/portfolio/reveal-video.mp4</loc>
-        <lastmod>2024-10-20T09:50:23+00:00</lastmod>
-        <priority>0.8</priority>
-        <video:video>
-            <video:content_loc>https://rasmusvolkov.com/assets/img/portfolio/reveal-video.mp4</video:content_loc>
-            <video:title>Beverage revamp</video:title>
-            <video:description>An example of a product rebranding campaign, showing the transformation from old to new design with dynamic shots and a bit of humour.</video:description>
-        </video:video>
-    </url>
+  <url>
+    <loc>https://rasmusvolkov.com/#product-animation</loc>
+    <lastmod>2024-10-20T09:50:23+00:00</lastmod>
+    <priority>0.8</priority>
+    <video:video>
+      <video:content_loc>https://rasmusvolkov.com/assets/img/portfolio/reveal-video.mp4</video:content_loc>
+      <video:title>Beverage revamp</video:title>
+      <video:description>An example of a product rebranding campaign, showing the transformation from old to new design with dynamic shots and a bit of humour.</video:description>
+    </video:video>
+  </url>
 
-    <url>
-        <loc>https://rasmusvolkov.com/#tech-explainers</loc>
-        <lastmod>2024-10-20T09:50:23+00:00</lastmod>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://rasmusvolkov.com/assets/img/portfolio/MuonExplainer2.mp4</loc>
-        <lastmod>2024-10-20T09:50:23+00:00</lastmod>
-        <priority>0.8</priority>
-        <video:video>
-            <video:content_loc>https://rasmusvolkov.com/assets/img/portfolio/MuonExplainer2.mp4</video:content_loc>
-            <video:title>Muon tomography explainer</video:title>
-            <video:description>Quick video with a voiceover, visually explaining the technology behind muon scanners.</video:description>
-        </video:video>
-    </url>
+  <url>
+    <loc>https://rasmusvolkov.com/#tech-explainers</loc>
+    <lastmod>2024-10-20T09:50:23+00:00</lastmod>
+    <priority>0.8</priority>
+    <video:video>
+      <video:content_loc>https://rasmusvolkov.com/assets/img/portfolio/MuonExplainer2.mp4</video:content_loc>
+      <video:title>Muon tomography explainer</video:title>
+      <video:description>Quick video with a voiceover, visually explaining the technology behind muon scanners.</video:description>
+    </video:video>
+  </url>
 
-    <url>
-        <loc>https://rasmusvolkov.com/#product-images</loc>
-        <lastmod>2024-10-20T09:50:23+00:00</lastmod>
-        <priority>0.6</priority>
-    </url>
+  <url>
+    <loc>https://rasmusvolkov.com/#product-images</loc>
+    <lastmod>2024-10-20T09:50:23+00:00</lastmod>
+    <priority>0.6</priority>
+    <video:video>
+      <video:content_loc>https://rasmusvolkov.com/assets/img/portfolio/grinder.mp4</video:content_loc>
+      <video:title>Angle grinder</video:title>
+      <video:description>Clips from an electric tool commercial featuring a dynamic 360° product showcase, featuring close-ups and an explosive view unveiling details and easy assembly process.</video:description>
+    </video:video>
+  </url>
 
-    <url>
-        <loc>https://rasmusvolkov.com/assets/img/portfolio/grinder.mp4</loc>
-        <lastmod>2024-10-20T09:50:23+00:00</lastmod>
-        <priority>0.6</priority>
-        <video:video>
-            <video:content_loc>https://rasmusvolkov.com/assets/img/portfolio/grinder.mp4</video:content_loc>
-            <video:title>Angle grinder</video:title>
-            <video:description>Clips from an electric tool commercial featuring a dynamic 360° product showcase, featuring close-ups and an explosive view unveiling details and easy assembly process.</video:description>
-        </video:video>
-    </url>
+  <url>
+    <loc>https://rasmusvolkov.com/#product-images</loc>
+    <lastmod>2024-10-20T09:50:23+00:00</lastmod>
+    <priority>0.6</priority>
+    <video:video>
+      <video:content_loc>https://rasmusvolkov.com/assets/img/portfolio/beauty1.mp4</video:content_loc>
+      <video:title>Clip: Beauty product</video:title>
+      <video:description>Simple quick video to use as a more eye-catching and engaging alternative instead of static image.</video:description>
+    </video:video>
+  </url>
 
-    <url>
-        <loc>https://rasmusvolkov.com/#product-images</loc>
-        <lastmod>2024-10-20T09:50:23+00:00</lastmod>
-        <priority>0.6</priority>
-    </url>
+  <url>
+    <loc>https://rasmusvolkov.com/#product-images</loc>
+    <lastmod>2024-10-20T09:50:23+00:00</lastmod>
+    <priority>0.6</priority>
+    <video:video>
+      <video:content_loc>https://rasmusvolkov.com/assets/img/portfolio/perfume.mp4</video:content_loc>
+      <video:title>Clip: Perfume</video:title>
+      <video:description>Fast-paced dynamic shot showing the perfume bottle from both sides in a moody environment.</video:description>
+    </video:video>
+  </url>
 
-    <url>
-        <loc>https://rasmusvolkov.com/assets/img/portfolio/beauty1.mp4</loc>
-        <lastmod>2024-10-20T09:50:23+00:00</lastmod>
-        <priority>0.6</priority>
-        <video:video>
-            <video:content_loc>https://rasmusvolkov.com/assets/img/portfolio/beauty1.mp4</video:content_loc>
-            <video:title>Clip: Beauty product</video:title>
-            <video:description>Simple quick video to use as a more eye-catching and engaging alternative instead of static image.</video:description>
-        </video:video>
-    </url>
+  <url>
+    <loc>https://rasmusvolkov.com/#tech-explainers</loc>
+    <lastmod>2024-10-20T09:50:23+00:00</lastmod>
+    <priority>0.6</priority>
+    <video:video>
+      <video:content_loc>https://rasmusvolkov.com/assets/img/portfolio/robot.mp4</video:content_loc>
+      <video:title>Clip: Delivery robot</video:title>
+      <video:description>Fast transition from dark to sunrise, highlighting the LED lights in the back and body design in the front.</video:description>
+    </video:video>
+  </url>
 
-    <url>
-        <loc>https://rasmusvolkov.com/#product-images</loc>
-        <lastmod>2024-10-20T09:50:23+00:00</lastmod>
-        <priority>0.6</priority>
-    </url>
+  <url>
+    <loc>https://rasmusvolkov.com/#tech-explainers</loc>
+    <lastmod>2024-10-20T09:50:23+00:00</lastmod>
+    <priority>0.6</priority>
+    <video:video>
+      <video:content_loc>https://rasmusvolkov.com/assets/img/portfolio/headphones-gold.mp4</video:content_loc>
+      <video:title>Clip: Headphones</video:title>
+      <video:description>Description 3</video:description>
+    </video:video>
+  </url>
 
-    <url>
-        <loc>https://rasmusvolkov.com/assets/img/portfolio/perfume.mp4</loc>
-        <lastmod>2024-10-20T09:50:23+00:00</lastmod>
-        <priority>0.6</priority>
-        <video:video>
-            <video:content_loc>https://rasmusvolkov.com/assets/img/portfolio/perfume.mp4</video:content_loc>
-            <video:title>Clip: Perfume</video:title>
-            <video:description>Fast-paced dynamic shot showing the perfume bottle from both sides in a moody environment.</video:description>
-        </video:video>
-    </url>
-
-    <url>
-        <loc>https://rasmusvolkov.com/#tech-explainers</loc>
-        <lastmod>2024-10-20T09:50:23+00:00</lastmod>
-        <priority>0.6</priority>
-    </url>
-
-    <url>
-        <loc>https://rasmusvolkov.com/assets/img/portfolio/robot.mp4</loc>
-        <lastmod>2024-10-20T09:50:23+00:00</lastmod>
-        <priority>0.6</priority>
-        <video:video>
-            <video:content_loc>https://rasmusvolkov.com/assets/img/portfolio/robot.mp4</video:content_loc>
-            <video:title>Clip: Delivery robot</video:title>
-            <video:description>Fast transition from dark to sunrise, highlighting the LED lights in the back and body design in the front.</video:description>
-        </video:video>
-    </url>
-
-    <url>
-        <loc>https://rasmusvolkov.com/#tech-explainers</loc>
-        <lastmod>2024-10-20T09:50:23+00:00</lastmod>
-        <priority>0.6</priority>
-    </url>
-
-    <url>
-        <loc>https://rasmusvolkov.com/assets/img/portfolio/headphones-gold.mp4</loc>
-        <lastmod>2024-10-20T09:50:23+00:00</lastmod>
-        <priority>0.6</priority>
-        <video:video>
-            <video:content_loc>https://rasmusvolkov.com/assets/img/portfolio/headphones-gold.mp4</video:content_loc>
-            <video:title>Clip: Headphones</video:title>
-            <video:description>Description 3</video:description>
-        </video:video>
-    </url>
 </urlset>
