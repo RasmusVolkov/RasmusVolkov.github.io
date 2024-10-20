@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap-image/1.1"
-        xmlns:video="http://www.google.com/schemas/sitemap-video#">
-    
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+
     <url>
         <loc>https://rasmusvolkov.com/#services</loc>
         <lastmod>2024-10-20T09:50:23+00:00</lastmod>
@@ -86,8 +86,8 @@
         <video:video>
             <video:content_loc>https://rasmusvolkov.com/assets/img/portfolio/headphones-gold.mp4</video:content_loc>
             <video:title>Clip: Headphones</video:title>
-            <video:description>Description 3</video:description>
+            <video:description>Fast shot showing golden headphones with sleek details.</video:description>
         </video:video>
     </url>
-
+    
 </urlset>
