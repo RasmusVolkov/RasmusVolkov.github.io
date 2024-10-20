@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap-image/1.1"
         xmlns:video="http://www.google.com/schemas/sitemap-video#">
-
+    
     <url>
         <loc>https://rasmusvolkov.com/#services</loc>
         <lastmod>2024-10-20T09:50:23+00:00</lastmod>
-        <changefreq>monthly</changefreq>
         <priority>1.0</priority>
-
         <video:video>
             <video:content_loc>https://rasmusvolkov.com/assets/img/portfolio/shoe.mp4</video:content_loc>
             <video:title>Shoe reveal</video:title>
@@ -18,9 +16,7 @@
     <url>
         <loc>https://rasmusvolkov.com/#product-animation</loc>
         <lastmod>2024-10-20T09:50:23+00:00</lastmod>
-        <changefreq>monthly</changefreq>
         <priority>0.8</priority>
-
         <video:video>
             <video:content_loc>https://rasmusvolkov.com/assets/img/portfolio/reveal-video.mp4</video:content_loc>
             <video:title>Beverage revamp</video:title>
@@ -31,9 +27,7 @@
     <url>
         <loc>https://rasmusvolkov.com/#tech-explainers</loc>
         <lastmod>2024-10-20T09:50:23+00:00</lastmod>
-        <changefreq>monthly</changefreq>
         <priority>0.8</priority>
-
         <video:video>
             <video:content_loc>https://rasmusvolkov.com/assets/img/portfolio/MuonExplainer2.mp4</video:content_loc>
             <video:title>Muon tomography explainer</video:title>
@@ -44,9 +38,7 @@
     <url>
         <loc>https://rasmusvolkov.com/#product-images</loc>
         <lastmod>2024-10-20T09:50:23+00:00</lastmod>
-        <changefreq>monthly</changefreq>
         <priority>0.6</priority>
-
         <video:video>
             <video:content_loc>https://rasmusvolkov.com/assets/img/portfolio/grinder.mp4</video:content_loc>
             <video:title>Angle grinder</video:title>
@@ -57,9 +49,7 @@
     <url>
         <loc>https://rasmusvolkov.com/#product-images</loc>
         <lastmod>2024-10-20T09:50:23+00:00</lastmod>
-        <changefreq>monthly</changefreq>
         <priority>0.6</priority>
-
         <video:video>
             <video:content_loc>https://rasmusvolkov.com/assets/img/portfolio/beauty1.mp4</video:content_loc>
             <video:title>Clip: Beauty product</video:title>
@@ -70,9 +60,7 @@
     <url>
         <loc>https://rasmusvolkov.com/#product-images</loc>
         <lastmod>2024-10-20T09:50:23+00:00</lastmod>
-        <changefreq>monthly</changefreq>
         <priority>0.6</priority>
-
         <video:video>
             <video:content_loc>https://rasmusvolkov.com/assets/img/portfolio/perfume.mp4</video:content_loc>
             <video:title>Clip: Perfume</video:title>
@@ -83,9 +71,7 @@
     <url>
         <loc>https://rasmusvolkov.com/#tech-explainers</loc>
         <lastmod>2024-10-20T09:50:23+00:00</lastmod>
-        <changefreq>monthly</changefreq>
         <priority>0.6</priority>
-
         <video:video>
             <video:content_loc>https://rasmusvolkov.com/assets/img/portfolio/robot.mp4</video:content_loc>
             <video:title>Clip: Delivery robot</video:title>
@@ -96,9 +82,7 @@
     <url>
         <loc>https://rasmusvolkov.com/#tech-explainers</loc>
         <lastmod>2024-10-20T09:50:23+00:00</lastmod>
-        <changefreq>monthly</changefreq>
         <priority>0.6</priority>
-
         <video:video>
             <video:content_loc>https://rasmusvolkov.com/assets/img/portfolio/headphones-gold.mp4</video:content_loc>
             <video:title>Clip: Headphones</video:title>
