@@ -163,3 +163,62 @@ document.addEventListener('DOMContentLoaded', function() {
     // Add event listener for window resize to re-check hover functionality
     window.addEventListener('resize', handleHover);
 });
+document.addEventListener('DOMContentLoaded', function() {
+    const slider = document.querySelector('.slider');
+    const sliderContainer = document.querySelector('.slider-container');
+    let isSliding = false;
+    let startX, sliderLeft;
+
+    // Handle mouse down (or touch start) event
+    slider.addEventListener('mousedown', startSliding);
+    slider.addEventListener('touchstart', startSliding);
+
+    // Handle mouse move (or touch move) event
+    document.addEventListener('mousemove', sliding);
+    document.addEventListener('touchmove', sliding);
+
+    // Handle mouse up (or touch end) event
+    document.addEventListener('mouseup', stopSliding);
+    document.addEventListener('touchend', stopSliding);
+
+    function startSliding(e) {
+        isSliding = true;
+        slider.style.transition = 'none';
+
+        // Get starting position of mouse/touch
+        startX = e.type === 'touchstart' ? e.touches[0].clientX : e.clientX;
+        sliderLeft = parseInt(window.getComputedStyle(slider).left, 10); // Get current left position of the slider
+    }
+
+    function sliding(e) {
+        if (!isSliding) return;
+
+        // Calculate how far the slider should move
+        const moveX = e.type === 'touchmove' ? e.touches[0].clientX - startX : e.clientX - startX;
+        const newLeft = sliderLeft + moveX;
+
+        // Set boundaries for slider movement
+        const minLeft = 5;
+        const maxLeft = sliderContainer.offsetWidth - slider.offsetWidth - 5;
+
+        if (newLeft >= minLeft && newLeft <= maxLeft) {
+            slider.style.left = `${newLeft}px`;
+        }
+    }
+
+    function stopSliding() {
+        if (!isSliding) return;
+
+        isSliding = false;
+        const maxLeft = sliderContainer.offsetWidth - slider.offsetWidth - 5;
+
+        // If slider reaches the end, trigger mailto link
+        if (parseInt(slider.style.left) >= maxLeft - 5) {
+            window.location.href = 'mailto:hello@rasmusvolkov.com';
+        } else {
+            // Return slider to starting position if not fully dragged
+            slider.style.transition = 'left 0.3s ease';
+            slider.style.left = '5px';
+        }
+    }
+});
