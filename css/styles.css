@@ -12295,3 +12295,16 @@ html {
   border-radius: 50%;
   padding: 1.5rem;
 }
+
+.btn-dark.btn-social {
+  height: 3.25rem !important;
+  width: 3.25rem !important;
+  border-radius: 100% !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.btn-dark.btn-social i {
+  line-height: 1;
+}
