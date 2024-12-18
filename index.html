@@ -194,11 +194,11 @@
                                     <source src="assets/img/portfolio/LEGO2.mp4" type="video/mp4">
                                     Your browser does not support the video tag.
                                 </video>
-                                <img class="img-fluid" src="assets/img/portfolio/LEGO.png" alt="Beauty product animation" style="border-radius: 45px;" />
+                                <img class="img-fluid" src="assets/img/portfolio/LEGO.png" alt="Christmas advertisement for an ecommerce toy store" style="border-radius: 45px;" />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">LEGO® ad for a toy store</div>
-                                <div class="portfolio-caption-subheading text-muted">Attention-grabbing video for Estonian audience highlighting a campaign and fast delivery</div>
+                                <div class="portfolio-caption-heading">Magic in every brick</div>
+                                <div class="portfolio-caption-subheading text-muted">A festive LEGO® animation for an e-commerce toy store, created for paid social ads to highlight fast delivery and engage an Estonian audience with a touch of wizardry.</div>
                             </div>
                         </div>
                     </div>
@@ -509,9 +509,9 @@
                             
                             <!-- Email Icon and Email Address -->
                             <div class="email" style="margin-bottom: 10px;">
-                                <a href="mailto:hello@rasmusvolkov.com" style="text-decoration: none;">
-                                    <i class="fa-solid fa-envelope" style="color: black;"></i>
-                                    <span class="text-muted">hello@rasmusvolkov.com</span>
+                                <a class="btn btn-primary btn-xl text-uppercase" href="javascript:void(0)" onclick="openEmail()">
+                                    Send me an email
+                                    <i class="fas fa-envelope ms-2"></i>
                                 </a>
                             </div>
         
@@ -551,7 +551,7 @@
                         It doesn't matter if you've already got a concrete plan or just an inkling of an idea for what you need—let's hop on a quick call or meet in person to see what we can do. Either send me an email at hello@rasmusvolkov.com by clicking the big yellow button below, or shoot me a DM on LinkedIn. Speak soon!</p>
                     
                     <!-- Regular Contact Button for Desktop -->
-                    <a class="btn btn-primary btn-xl text-uppercase contact-desktop" href="mailto:hello@rasmusvolkov.com">
+                    <a class="btn btn-primary btn-xl text-uppercase contact-desktop" href="mailto:rasmus.volkov@gmail.com">
                         Contact Me
                     </a>
 
@@ -880,5 +880,13 @@
               document.querySelector('.video-fallback').style.display = 'block';
             };
         </script>
+        <script>
+            function openEmail() {
+                // Construct email parts to avoid scraping
+                const parts = ['rasmus', 'volkov', 'gmail.com'];
+                const email = parts[0] + '.' + parts[1] + '@' + parts[2];
+                window.location.href = 'mailto:' + email;
+            }
+            </script>
     </body>
 </html>
